@@ -2,13 +2,13 @@
 
 ## Overview
 
-This repository contains Data Engineering solution using ETL (Extract, Transform, Load) implementation for the sales data analysis of Apple products. The solution is designed to handle diverse data formats and is implemented on Databricks using PySpark, Python, and Databricks utilities.Factory Method Design Pattern has been implemented for reading and writing data based on data format. It provides a standardized interface to handle different data formats seamlesslyThe data model consists of dimensional data (Customers) and fact data (Transactions).
-As a part of this project we are solving 4 business problem statements.
+This repository contains Data Engineering solution using ETL (Extract, Transform, Load) implementation for the sales data analysis of Apple products. The solution is designed to handle diverse data formats and is implemented on Databricks using PySpark, Python, and Databricks utilities.Factory Method Design Pattern has been implemented for reading and writing data based on data format. It provides a standardized interface to handle different data formats seamlessly.
 
-->Customers who have bought AirPods after buying iPhone
-->Customers who have bought both AirPods and iPhone
-->List all the products bought by customers after the initial purchase
-->Determine the Average time delay buying an iPhone and buying AirPods for all customers.
+As a part of this project we are solving 4 business problem statements:
+- Customers who have bought AirPods after buying iPhone.
+- Customers who have bought both AirPods and iPhone.
+- List all the products bought by customers after the initial purchase.
+- Determine the Average time delay buying an iPhone and buying AirPods for all customers.
 
 ## Data Model
 
