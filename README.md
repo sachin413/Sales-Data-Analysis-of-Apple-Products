@@ -1,8 +1,14 @@
-# Sales Data Analysis of Apple Products - README
+# Sales Data Analysis of Apple Products
 
 ## Overview
 
-This repository contains the ETL (Extract, Transform, Load) implementation for the sales data analysis of Apple products. The solution is designed to handle diverse data formats and is implemented on Databricks using PySpark, Python, and Databricks utilities. The data model consists of dimensional data (Customers) and fact data (Transactions).
+This repository contains Data Engineering solution using ETL (Extract, Transform, Load) implementation for the sales data analysis of Apple products. The solution is designed to handle diverse data formats and is implemented on Databricks using PySpark, Python, and Databricks utilities.Factory Method Design Pattern has been implemented for reading and writing data based on data format. It provides a standardized interface to handle different data formats seamlesslyThe data model consists of dimensional data (Customers) and fact data (Transactions).
+As a part of this project we are solving 4 business problem statements.
+
+->Customers who have bought AirPods after buying iPhone
+->Customers who have bought both AirPods and iPhone
+->List all the products bought by customers after the initial purchase
+->Determine the Average time delay buying an iPhone and buying AirPods for all customers.
 
 ## Data Model
 
@@ -60,4 +66,4 @@ Contributions to this project are welcome. Please ensure that any contributions 
 
 ## Contact
 
-For any queries or support related to this ETL solution, please contact raysachin1997@gmail.com
+For any queries or support related to this Data Engineering solution, please contact raysachin1997@gmail.com
